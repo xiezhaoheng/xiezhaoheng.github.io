@@ -776,7 +776,7 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
         </div>
     </div>
 </section>
-
+<!-- publication and img active默认设置为this year -->
                     <p id="paper" style="height:4rem;margin: 0;">&nbsp;</p>
                     <section style="font-size: 1.8rem;">
                         <h3>Publications</h3>
@@ -786,7 +786,7 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
                                 <!-- <div class="tab" onclick="showPapers('patents')">Invention Patents</div> -->
 
                                 <div class="tab" onclick="showPapers('0000')">All Papers</div>
-                                <div class="tab" onclick="showPapers('2025')">2026</div>
+                                <div class="tab" onclick="showPapers('2026')">2026</div>
                                 <div class="tab" onclick="showPapers('2025')">2025</div>
                                 <div class="tab" onclick="showPapers('2024')">2024</div>
                                 <div class="tab" onclick="showPapers('2023')">2023</div>
@@ -843,30 +843,34 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
                             
                                 <div id="0000" class="paper-list">
                                     <ol>
+                                        <li><p align="justify">(<i><strong>ICML'26</strong></i>) - Xu, H., Chen, Y., Fu, W., Han, H., and <b>Xie, Z.*</b>, "NeuronCtrl: Geometry-Aware Safe Closed-Loop Generative Control for Neuronal Microenvironment Dynamics", in <i>Forty-third International Conference on Machine Learning</i>, 2026.
+                                        <br>[<a href="#" onclick="copyTextAndNotify(event, '@INPROCEEDINGS{xu2026neuronctrl, author={Xu, H. and Chen, Y. and Fu, W. and Han, H. and Xie, Zhaoheng}, booktitle={Forty-third International Conference on Machine Learning}, title={NeuronCtrl: Geometry-Aware Safe Closed-Loop Generative Control for Neuronal Microenvironment Dynamics}, year={2026}}')">bib</a>]
+                                        [<a href="https://openreview.net/forum?id=ZK3h2ENA67" target="_blank">URL</a>]
+                                        </p>
+                                        </li>
                                         <li>
-        <p align="justify">
-            (<i><strong>PMB'26</strong></i>) - Dong, Z.†, Jin, X.†, Meng, X.†, Liu, W., Li, N., Yang, Z., Yu, J.*, and <b>Xie, Z.*</b>,
-            "Learning-Enhanced Hybrid Planar-SPECT Dosimetry for Voxel-Level Monte Carlo Dose Estimation in Radionuclide Therapy",
-            in <i>Physics in Medicine &amp; Biology</i>, 2026.
-            <br>
-            [<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{dong2026learning, author={Dong, Zhenkun and Jin, X. and Meng, X. and Liu, W. and Li, N. and Yang, Z. and Yu, J. and Xie, Zhaoheng}, journal={Physics in Medicine \&amp; Biology}, title={Learning-Enhanced Hybrid Planar-SPECT Dosimetry for Voxel-Level Monte Carlo Dose Estimation in Radionuclide Therapy}, year={2026}, doi={10.1088/1361-6560/aea39b}, publisher={IOP Publishing}}')">bib</a>]
-            [<a href="https://doi.org/10.1088/1361-6560/aea39b" target="_blank" rel="noopener noreferrer">DOI</a>]
-        </p>
-    </li>
-
-    <li>
-        <p align="justify">
-            (<i><strong>IEEE TIM'26</strong></i>) - Wang, Y.†, Yang, S.†, Wang, Z.†, Wang, Z., Huang, X.*, and <b>Xie, Z.*</b>,
-            "Meta-Learning-Based Robust Timing Estimation Across Varying TOF-PET Detector Configurations",
-            in <i>IEEE Transactions on Instrumentation and Measurement</i>, 2026.
-            <br>
-            [<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{wang2026meta, author={Wang, Yuyao and Yang, S. and Wang, Z. and Wang, Z. and Huang, X. and Xie, Zhaoheng}, journal={IEEE Transactions on Instrumentation and Measurement}, title={Meta-Learning-Based Robust Timing Estimation Across Varying TOF-PET Detector Configurations}, year={2026}, publisher={IEEE}}')">bib</a>]
-            [<span>DOI forthcoming</span>]
-        </p>
-    </li>
+                                        <p align="justify">
+                                            (<i><strong>PMB'26</strong></i>) - Dong, Z.†, Jin, X.†, Meng, X.†, Liu, W., Li, N., Yang, Z., Yu, J.*, and <b>Xie, Z.*</b>,
+                                            "Learning-Enhanced Hybrid Planar-SPECT Dosimetry for Voxel-Level Monte Carlo Dose Estimation in Radionuclide Therapy",
+                                            in <i>Physics in Medicine &amp; Biology</i>, 2026.
+                                            <br>
+                                            [<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{dong2026learning, author={Dong, Zhenkun and Jin, X. and Meng, X. and Liu, W. and Li, N. and Yang, Z. and Yu, J. and Xie, Zhaoheng}, journal={Physics in Medicine \&amp; Biology}, title={Learning-Enhanced Hybrid Planar-SPECT Dosimetry for Voxel-Level Monte Carlo Dose Estimation in Radionuclide Therapy}, year={2026}, doi={10.1088/1361-6560/aea39b}, publisher={IOP Publishing}}')">bib</a>]
+                                            [<a href="https://doi.org/10.1088/1361-6560/aea39b" target="_blank" rel="noopener noreferrer">DOI</a>]
+                                        </p>
+                                        </li>
+                                        <li>
+                                            <p align="justify">
+                                                (<i><strong>IEEE TIM'26</strong></i>) - Wang, Y.†, Yang, S.†, Wang, Z.†, Wang, Z., Huang, X.*, and <b>Xie, Z.*</b>,
+                                                "Meta-Learning-Based Robust Timing Estimation Across Varying TOF-PET Detector Configurations",
+                                                in <i>IEEE Transactions on Instrumentation and Measurement</i>, 2026.
+                                                <br>
+                                                [<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{wang2026meta, author={Wang, Yuyao and Yang, S. and Wang, Z. and Wang, Z. and Huang, X. and Xie, Zhaoheng}, journal={IEEE Transactions on Instrumentation and Measurement}, title={Meta-Learning-Based Robust Timing Estimation Across Varying TOF-PET Detector Configurations}, year={2026}, publisher={IEEE}}')">bib</a>]
+                                                [<span>DOI forthcoming</span>]
+                                            </p>
+                                        </li>
                                         <li><p align="justify">(<i><strong>MedIA'26</strong></i>) - Ma, K.†, Cheng, F.†, Liu, W., Shao, W., Yang, Y., Li, N., Meng, X.*, and <b>Xie, Z.*</b>, "Enhancing Uncertainty Assessment in Dynamic PET Imaging with Residual Permutation and Clustering", in <i>Medical Image Analysis</i>, 2026.
                                         <br>[<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{ma2026enhancing, author={Ma, Kun and Cheng, Fangxiao and Liu, Wei and Shao, Wenrui and Yang, Yalei and Li, Nan and Meng, Xiangxi and Xie, Zhaoheng}, journal={Medical Image Analysis}, title={Enhancing Uncertainty Assessment in Dynamic PET Imaging with Residual Permutation and Clustering}, year={2026}, volume={}, number={}, pages={}, publisher={Elsevier}}')">bib</a>]
-                                        [<a href="#" target="_blank">DOI</a>]
+                                        [<a href="https://doi.org/10.1016/j.media.2026.103997" target="_blank">DOI</a>]
                                         </p>
                                         </li>
                                        <li><p align="justify">(<i><strong>IEEE TRPMS'26</strong></i>) - Shao, W., Chen, Y., Fu, O., Li, T., Yang, Z., Li, N., Han, H., Meng, X.*, and <b>Xie, Z.*</b>, "Neural Network Approximation Aided Kinetic Parameter Inference of Compartment Models in Dynamic PET", in <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>, pp. 1-1, 2026.
@@ -1068,19 +1072,46 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
                             
                                 <div id="2026" class="paper-list active">
                                     <ol>
-                                        <li><p align="justify">(<i><strong>MedIA'26</strong></i>) - Ma, K.†, Cheng, F.†, Liu, W., Shao, W., Yang, Y., Li, N., Meng, X.*, and <b>Xie, Z.*</b>, "Enhancing Uncertainty Assessment in Dynamic PET Imaging with Residual Permutation and Clustering", in <i>Medical Image Analysis</i>, 2026.
-                                        <br>[<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{ma2026enhancing, author={Ma, Kun and Cheng, Fangxiao and Liu, Wei and Shao, Wenrui and Yang, Yalei and Li, Nan and Meng, Xiangxi and Xie, Zhaoheng}, journal={Medical Image Analysis}, title={Enhancing Uncertainty Assessment in Dynamic PET Imaging with Residual Permutation and Clustering}, year={2026}, volume={}, number={}, pages={}, publisher={Elsevier}}')">bib</a>]
-                                        [<a href="#" target="_blank">DOI</a>]
+                                        <li><p align="justify">(<i><strong>ICML'26</strong></i>) - Xu, H., Chen, Y., Fu, W., Han, H., and <b>Xie, Z.*</b>, "NeuronCtrl: Geometry-Aware Safe Closed-Loop Generative Control for Neuronal Microenvironment Dynamics", in <i>Forty-third International Conference on Machine Learning</i>, 2026.
+                                        <br>[<a href="#" onclick="copyTextAndNotify(event, '@INPROCEEDINGS{xu2026neuronctrl, author={Xu, H. and Chen, Y. and Fu, W. and Han, H. and Xie, Zhaoheng}, booktitle={Forty-third International Conference on Machine Learning}, title={NeuronCtrl: Geometry-Aware Safe Closed-Loop Generative Control for Neuronal Microenvironment Dynamics}, year={2026}}')">bib</a>]
+                                        [<a href="https://openreview.net/forum?id=ZK3h2ENA67" target="_blank">URL</a>]
                                         </p>
                                         </li>
-                                           <li><p align="justify">(<i><strong>IEEE TRPMS'26</strong></i>) - Shao, W., Chen, Y., Fu, O., Li, T., Yang, Z., Li, N., Han, H., Meng, X.*, and <b>Xie, Z.*</b>, "Neural Network Approximation Aided Kinetic Parameter Inference of Compartment Models in Dynamic PET", in <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>, pp. 1-1, 2026.
+                                        <li>
+                                        <p align="justify">
+                                            (<i><strong>PMB'26</strong></i>) - Dong, Z.†, Jin, X.†, Meng, X.†, Liu, W., Li, N., Yang, Z., Yu, J.*, and <b>Xie, Z.*</b>,
+                                            "Learning-Enhanced Hybrid Planar-SPECT Dosimetry for Voxel-Level Monte Carlo Dose Estimation in Radionuclide Therapy",
+                                            in <i>Physics in Medicine &amp; Biology</i>, 2026.
+                                            <br>
+                                            [<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{dong2026learning, author={Dong, Zhenkun and Jin, X. and Meng, X. and Liu, W. and Li, N. and Yang, Z. and Yu, J. and Xie, Zhaoheng}, journal={Physics in Medicine \&amp; Biology}, title={Learning-Enhanced Hybrid Planar-SPECT Dosimetry for Voxel-Level Monte Carlo Dose Estimation in Radionuclide Therapy}, year={2026}, doi={10.1088/1361-6560/aea39b}, publisher={IOP Publishing}}')">bib</a>]
+                                            [<a href="https://doi.org/10.1088/1361-6560/aea39b" target="_blank" rel="noopener noreferrer">DOI</a>]
+                                        </p>
+                                        </li>
+                                        <li>
+                                            <p align="justify">
+                                                (<i><strong>IEEE TIM'26</strong></i>) - Wang, Y.†, Yang, S.†, Wang, Z.†, Wang, Z., Huang, X.*, and <b>Xie, Z.*</b>,
+                                                "Meta-Learning-Based Robust Timing Estimation Across Varying TOF-PET Detector Configurations",
+                                                in <i>IEEE Transactions on Instrumentation and Measurement</i>, 2026.
+                                                <br>
+                                                [<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{wang2026meta, author={Wang, Yuyao and Yang, S. and Wang, Z. and Wang, Z. and Huang, X. and Xie, Zhaoheng}, journal={IEEE Transactions on Instrumentation and Measurement}, title={Meta-Learning-Based Robust Timing Estimation Across Varying TOF-PET Detector Configurations}, year={2026}, publisher={IEEE}}')">bib</a>]
+                                                [<span>DOI forthcoming</span>]
+                                            </p>
+                                        </li>
+                                        <li><p align="justify">(<i><strong>MedIA'26</strong></i>) - Ma, K.†, Cheng, F.†, Liu, W., Shao, W., Yang, Y., Li, N., Meng, X.*, and <b>Xie, Z.*</b>, "Enhancing Uncertainty Assessment in Dynamic PET Imaging with Residual Permutation and Clustering", in <i>Medical Image Analysis</i>, 2026.
+                                        <br>[<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{ma2026enhancing, author={Ma, Kun and Cheng, Fangxiao and Liu, Wei and Shao, Wenrui and Yang, Yalei and Li, Nan and Meng, Xiangxi and Xie, Zhaoheng}, journal={Medical Image Analysis}, title={Enhancing Uncertainty Assessment in Dynamic PET Imaging with Residual Permutation and Clustering}, year={2026}, volume={}, number={}, pages={}, publisher={Elsevier}}')">bib</a>]
+                                        [<a href="https://doi.org/10.1016/j.media.2026.103997" target="_blank">DOI</a>]
+                                        </p>
+                                        </li>
+                                       <li><p align="justify">(<i><strong>IEEE TRPMS'26</strong></i>) - Shao, W., Chen, Y., Fu, O., Li, T., Yang, Z., Li, N., Han, H., Meng, X.*, and <b>Xie, Z.*</b>, "Neural Network Approximation Aided Kinetic Parameter Inference of Compartment Models in Dynamic PET", in <i>IEEE Transactions on Radiation and Plasma Medical Sciences</i>, pp. 1-1, 2026.
                                         <br>[<a href="#" onclick="copyTextAndNotify(event, '@ARTICLE{11371675, author={Shao, Wenrui and Chen, Yixin and Fu, Ourui and Li, Tian and Yang, Zhi and Li, Nan and Han, Hongbin and Meng, Xiangxi and Xie, Zhaoheng}, journal={IEEE Transactions on Radiation and Plasma Medical Sciences}, title={Neural Network Approximation Aided Kinetic Parameter Inference of Compartment Models in Dynamic PET}, year={2026}, volume={}, number={}, pages={1-1}, keywords={Kinetic theory;Noise;Mathematical models;Delays;Physiology;Protocols;Robustness;Positron emission tomography;Finite difference methods;Data models;Dynamic PET;Finite Difference;Neural Network;Parameters Inference;Total-body}, doi={10.1109/TRPMS.2026.3660465}}')">bib</a>]
                                            [<a href="https://doi.org/10.1109/TRPMS.2026.3660465" target="_blank">DOI</a>]
                                         </p>
+                                        </li>
+                                       </li>
                                         
                                     </ol>
                                 </div>
-                                <div id="2025" class="paper-list active">
+                                <div id="2025" class="paper-list">
                                     <ol>
                                         <li><p align="justify">(<i><strong>EJNMMI Phys.'25</strong></i>) - Shao, W.†, Zhang, Y.†, Du, F., Cheng, F., Chen, Y., Meng, X., Liang, Y.*, and <b>Xie, Z.*</b>, "Neural network-aided unsupervised input function estimation for dual-time-window PET Patlak analysis", in <i>EJNMMI Physics</i>, vol. 12, p. 100, 2025.
                                            <br>[<a href="#" onclick="copyTextAndNotify(event, '@article{shao2025neural, author={Shao, W. and Zhang, Y. and Du, F. and Cheng, F. and Chen, Y. and Meng, X. and Liang, Y. and Xie, Z.}, title={Neural network-aided unsupervised input function estimation for dual-time-window PET Patlak analysis}, journal={EJNMMI Physics}, volume={12}, pages={100}, year={2025}}')">bib</a>]
@@ -1302,6 +1333,21 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
                                     <!-- <h4>Featured Covers</h4> -->
                                     
                                     <div class="cover-group" data-year="0000">
+
+                                        <div class="image-holder">
+                                            <img src="common/img/IEEE TIM 2026.png"
+                                                alt="IEEE Transactions on Instrumentation and Measurement 2026">
+                                        </div>
+                                        <p class="cover-caption">
+                                            IEEE Transactions on Instrumentation and Measurement, 2026
+                                        </p>
+
+                                        <div class="image-holder">
+                                            <img src="common/img/ICML2026.png"
+                                                alt="ICML 2026">
+                                        </div>
+                                        <p class="cover-caption">ICML, 2026</p>
+
                                         <div class="image-holder">
                                             <img src="common/img/Neutral Network2025.png" alt="Neutral Network 2025">
                                         </div>
@@ -1361,8 +1407,27 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
                                         </div>
                                         <p class="cover-caption">Gene Therapy, 2017</p>
                                     </div>
+                                    
+                                    <!-- 2026 Publications Covers -->
+                                    <div class="cover-group active" data-year="2026">
 
-                                    <div class="cover-group active" data-year="2025">
+                                        <div class="image-holder">
+                                            <img src="common/img/IEEE TIM 2026.png"
+                                                alt="IEEE Transactions on Instrumentation and Measurement 2026">
+                                        </div>
+                                        <p class="cover-caption">
+                                            IEEE Transactions on Instrumentation and Measurement, 2026
+                                        </p>
+
+                                        <div class="image-holder">
+                                            <img src="common/img/ICML2026.png"
+                                                alt="ICML 2026">
+                                        </div>
+                                        <p class="cover-caption">ICML, 2026</p>
+
+                                    </div>
+
+                                    <div class="cover-group" data-year="2025">
                                         <div class="image-holder">
                                             <img src="common/img/Neutral Network2025.png" alt="Neutral Network 2025">
                                         </div>
@@ -1828,7 +1893,7 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
         }
 
         // 默认显示最近一年的论文
-        showRecentPapers(2025);
+        showRecentPapers(2026);
 
 
 
